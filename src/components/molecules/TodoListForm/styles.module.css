@@ -1,0 +1,7 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+}
+.formWrapper > *:not(:last-child) {
+  margin-right: 1rem;
+}

@@ -1,0 +1,12 @@
+.listWrapper {
+  width: 100%;
+  max-width: 80rem;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.listWrapper > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
